@@ -7,7 +7,7 @@ there are 4 hashmap implemented:
     3.array + list + shared_mutex pool
     4.partition + #3
 
-I would like to show which has best performance for put/get data in parallel.
+I would like to show which has better performance on putting/getting data in parallel.
 
 I got the following things:
 1. One hashmap with multiple mutex(64) to protect the corresponding data has same performance as multiple hashmap(64) with one mutex.
